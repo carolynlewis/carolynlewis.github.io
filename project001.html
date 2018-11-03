@@ -33,15 +33,26 @@ h4 {
 	padding: 0px 50px 0px 50px;
 	}
 	
-.image {
+.image-top {
 	width: 200px;
 	}
 
-.border {
+.image-bottom {
+	width:500px;
+	}
+
+.border-round {
 	border-color: gray;
 	border-width: 10px;
 	border-style: solid;
 	border-radius: 50%;
+	}
+
+.border-square {
+	border-color: green;
+	border-width: 10px;
+	border-style: solid;
+	border-radius:10px;
 	}
 
 .teal-text{
@@ -56,6 +67,10 @@ h4 {
 	padding: 0px 20px 1px 30px;
 	}
 
+.photo-padding {
+	padding: 30px 0px 30px 0px;
+	}
+
 </style>
 
 </head>
@@ -64,16 +79,16 @@ h4 {
 
 <h1><center>[carolyn]</center></h1>
 
-<center><a href="http://random.cat" target="_blank"><img class="image border" src="http://carolynlewis.github.io/garage.jpg" alt="Car in a garage with cats.."></a></center><br>
+<center><a href="http://random.cat" target="_blank"><img class="image-top border-round" src="http://carolynlewis.github.io/garage.jpg" alt="Car in a garage with cats.."></a></center><br>
 
 <h2>This is my first website using the basic HTML and CSS coding I learned from <a href="https://www.freecodecamp.org/">Free Code Camp</a>.</h2>
 
-<h4><a href="#footer">Go to bottom of page</a></h4>
 
-<h4>My past coding experience includes making my own HTML websites in the late 1990s and editing existing CSS codes from templates on Blogger and WordPress.</h4>
+<h4>My past coding experience includes making my own HTML websites and editing existing CSS codes from templates on Blogger and WordPress.</h4>
 
 <h4>I will be typing out all of the codes using Notepad++ with an HTML viewer plugin.</h4>
 
+<h4><a href="#footer">Go to bottom of page</a></h4>
 <h3 class="teal-text">Here are Free Code Camp's Responsive Web Design Certification modules:</h3>
 
 <ol>
@@ -122,6 +137,12 @@ h4 {
 	<p><button type="submit">Submit</button></p>
 
 </form>
+
+</div>
+
+<div class="photo-padding">
+
+<center><img class="image-bottom border-square" src="http://carolynlewis.github.io/lights.jpg"></center>
 
 </div>
 
